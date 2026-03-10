@@ -41,3 +41,38 @@ yarn-error.log*
 next-env.d.ts
 
 .vercel
+
+# Documentation files (keep only README.md)
+ADMIN_*.md
+AI_WRITING_*.md
+API_KEY_*.md
+BUGS_*.md
+CITATION_*.md
+DASHBOARD_*.md
+DEPLOYMENT_*.md
+EXPORT_*.md
+FIXES_*.md
+GOOGLE_*.md
+IMPLEMENTATION_*.md
+MANUAL_*.md
+MULTIPLE_*.md
+QUICK_*.md
+README_DEPLOYMENT.md
+SEARCH_*.md
+SHARE_*.md
+START_HERE.md
+SUPER_ADMIN_*.md
+
+# Deployment scripts
+deploy.bat
+deploy.sh
+pre-deploy-check.mjs
+upgrade-super-admin.mjs
+
+# Test files
+check_models.*
+
+# Large documents
+*.doc
+*.docx
+*.pdf
