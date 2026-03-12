@@ -3,9 +3,6 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   
-  // Add empty turbopack config to silence the warning
-  turbopack: {},
-  
   webpack: (config, { isServer, webpack }) => {
     // Ignore test files, README files, and problematic extensions
     config.plugins.push(
